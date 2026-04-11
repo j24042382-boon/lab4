@@ -2,7 +2,7 @@
 filename: lab04.css
 author: Boon Xiao Teng
 created: 09/04/2026
-last modified: 09/04/2026
+last modified: 11/04/2026
 description: lab04.html styling
 */
 
@@ -40,11 +40,12 @@ caption {
     text-align: center;
 }
 table,th, td { border: 2px solid black;}
-table th{
-    font-weight: normal;
+
+.bold-text {
+    font-weight: bold;
 }
 table tr:last-child td {
-  text-align: center}
+    text-align: center}
 
 #I {
          text-align: center;
